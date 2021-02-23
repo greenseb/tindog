@@ -1,0 +1,202 @@
+/* HTML selectors */
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.h1meet {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+font-size: 3rem;
+line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 5% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+
+.iphonedog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 10%;
+}
+
+.iphone {
+  position: relative;
+}
+
+/* Sections */
+
+.colour-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+background-color: white;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* ICONS */
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-tier {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Call to Action */
+
+.ctah3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 60%;
+  margin: auto;
+  padding: 5rem 0rem 1.5rem;
+  line-height: 1.5;
+}
+
+.ctabtn {
+  margin: 0 0.5rem 5rem;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+}
+
+.socials {
+  padding: 1.5rem 0.75rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  .iphonedog {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
